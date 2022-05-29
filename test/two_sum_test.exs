@@ -1,6 +1,6 @@
 defmodule TwoSumTest do
   use ExUnit.Case
-  doctest ValidParentheses
+  doctest TwoSum
 
   test "Examples" do
     assert TwoSum.two_sum([2, 7, 11, 15], 9) === [0, 1]

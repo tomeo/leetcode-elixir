@@ -1,6 +1,6 @@
 defmodule ReverseIntegerTest do
   use ExUnit.Case
-  doctest ValidParentheses
+  doctest ReverseInteger
 
   test "Examples" do
     assert ReverseInteger.reverse(123) === 321
